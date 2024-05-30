@@ -1,3 +1,50 @@
 body {
-    background: red ;
+    background-color: #f7f7f7;
+    background-attachment: fixed;
+    background-image: linear-gradient(133deg,rgba(254,74,75,.15) 5%,rgba(253,157,166,.15) 35%,rgba(106,0,206,.15))
+}
+
+.container {
+    background-color: white;
+    border: 80px;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: 90px auto;
+    margin-left: 20px auto;
+    margin-right: 20px auto;
+    padding: 40px;
+    text-align: center;
+}
+
+button {
+    color: white;
+    background-color: #e8dbee;
+    display: flex;
+    margin: 20px 0;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: medium;
+}
+
+h1 {
+    color: plum;
+    text-align: center;
+    font-size: 50px;
+}
+
+h3 {
+font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    font-size: small;
+}
+
+.mini {
+    font-size: medium;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
 }
