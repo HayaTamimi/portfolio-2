@@ -8,7 +8,7 @@ body {
     background-color: white;
     border: 80px;
     border-radius: 20px;
-    max-width: 600px;
+    max-width: 700px;
     margin: 90px auto;
     margin-left: 20px auto;
     margin-right: 20px auto;
@@ -31,14 +31,23 @@ h1 {
     color: plum;
     text-align: center;
     font-size: 50px;
+    font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h3 {
-font-family: 'Courier New', Courier, monospace;
-    color: gray;
-    font-size: small;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8e7f93;
+    font-size: medium;
+    font-weight: 500;
+    line-height: 2;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
 .mini {
     font-size: medium;
 }
